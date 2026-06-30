@@ -1,0 +1,10 @@
+[project]
+name = "agent-context-health"
+version = "0.1.0"
+description = "Audit project context health for AI coding agents."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+
+[project.scripts]
+agent-context-health = "agent_context_health.cli:main"
